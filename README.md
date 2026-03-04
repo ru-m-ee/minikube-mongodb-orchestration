@@ -2,7 +2,7 @@
 
 A professional Kubernetes implementation of a containerized **MongoDB** database and **Mongo-Express** web-based administration interface, orchestrated on a local **Minikube** cluster.
 
-## 📂 Project Structure
+📂 Project Structure
 ├── k8s-manifests/
 │   ├── mongo-configmap.yaml      # Configuration metadata
 │   ├── mongo-secret.yaml         # Sensitive credentials (Base64)

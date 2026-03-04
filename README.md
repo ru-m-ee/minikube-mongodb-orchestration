@@ -2,15 +2,6 @@
 
 A professional Kubernetes implementation of a containerized **MongoDB** database and **Mongo-Express** web-based administration interface, orchestrated on a local **Minikube** cluster.
 
-📂 Project Structure
-├── k8s-manifests/
-│   ├── mongo-configmap.yaml      # Configuration metadata
-│   ├── mongo-secret.yaml         # Sensitive credentials (Base64)
-│   ├── mongo-db.yaml             # MongoDB Database Pod & Service
-│   └── webapp-express.yaml       # Mongo-Express UI & NodePort Service
-└── README.md
-
-
 ## 🏗️ Architectural Overview
 This project demonstrates the core principles of Kubernetes resource management and Infrastructure as Code (IaC):
 - **Stateful Application Deployment**: Managing MongoDB instances using K8s Deployments.
